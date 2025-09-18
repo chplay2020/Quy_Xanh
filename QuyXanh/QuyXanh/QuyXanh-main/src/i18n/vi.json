@@ -1,0 +1,346 @@
+{
+	"notfound": {
+		"title": "Trang không tồn tại",
+		"subtitle": "Có vẻ như bạn đã lạc vào một khu rừng chưa được khám phá. Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển.",
+		"backButton": "Quay lại",
+		"homeButton": "Về trang chủ"
+	},
+	"header": {
+		"campaigns": "Chiến dịch",
+		"about": "Giới thiệu",
+		"contact": "Liên hệ",
+		"login": "Bắt đầu",
+		"logout": "Đăng xuất",
+		"dashboard": "Dashboard"
+	},
+	"hero": {
+		"title": "#1 Nền tảng gây quỹ tại Việt Nam",
+		"subtitle": "Những chiến dịch gây quỹ thành công bắt đầu từ đây",
+		"cta": "Bắt đầu với QuyXanh",
+		"community": "Giúp đỡ cộng đồng",
+		"connect": "Kết nối yêu thương",
+		"spread": "Lan tỏa tích cực",
+		"description": "Hơn 500 triệu VNĐ được quyên góp mỗi tuần trên QuyXanh.*",
+		"weeklyDonationPattern": "Hơn {{amount}} VNĐ được quyên góp mỗi tuần trên QuyXanh.*"
+	},
+	"features": {
+		"title": "Khám Phá Hành Trình Gây Quỹ",
+		"subtitle": "Cùng nhau tạo nên những câu chuyện ý nghĩa, thay đổi cuộc sống và lan tỏa yêu thương",
+		"health": "Y tế",
+		"healthDesc": "Hỗ trợ điều trị bệnh và chăm sóc sức khỏe",
+		"healthEmergency": "Y tế khẩn cấp",
+		"healthEmergencyDesc": "Hỗ trợ chi phí điều trị, phẫu thuật và chăm sóc sức khỏe",
+		"education": "Giáo dục",
+		"educationDesc": "Hỗ trợ học bổng và phát triển giáo dục",
+		"educationDesc2": "Gây quỹ cho học phí, sách vở và thiết bị học tập",
+		"charity": "Từ thiện",
+		"charityDesc": "Ủng hộ các tổ chức phi lợi nhuận và hoạt động cộng đồng",
+		"business": "Kinh doanh",
+		"businessDesc": "Hỗ trợ khởi nghiệp và phát triển doanh nghiệp",
+		"sports": "Thể thao",
+		"sportsDesc": "Hỗ trợ vận động viên và các hoạt động thể thao",
+		"environment": "Môi trường",
+		"environmentDesc": "Bảo vệ thiên nhiên và phát triển bền vững",
+		"campaigns": "chiến dịch"
+	},
+	"currency": {
+		"billion": "Tỷ",
+		"million": "Tr",
+		"thousand": "K"
+	},
+	"stats": {
+		"donatedAmount": "VNĐ được quyên góp",
+		"successfulCampaigns": "Chiến dịch thành công",
+		"supporters": "Người ủng hộ",
+		"provinces": "Tỉnh thành"
+	},
+	"odometer": {
+		"title": "Tổng số tiền đã quyên góp",
+		"subtitle": "Trên nền tảng QuyXanh",
+		"note": "Cảm ơn sự đóng góp của hơn 100,000 nhà hảo tâm đã giúp thực hiện 15,000+ chiến dịch thành công",
+		"totalAmountPattern": "Hơn {{amount}} VNĐ đã được quyên góp từ cộng đồng QuyXanh."
+	},
+	"howItWorks": {
+		"title": "Gây quỹ trên QuyXanh dễ dàng, mạnh mẽ và đáng tin cậy",
+		"step1Title": "Sử dụng công cụ của chúng tôi để tạo chiến dịch",
+		"step1Desc": "Bạn sẽ được hướng dẫn thêm chi tiết chiến dịch và đặt mục tiêu. Cập nhật bất cứ lúc nào.",
+		"step1Button": "Lấy mẹo để bắt đầu chiến dịch của bạn",
+		"step2Title": "Tiếp cận người ủng hộ bằng cách chia sẻ",
+		"step2Desc": "Chia sẻ liên kết chiến dịch của bạn và sử dụng các tài nguyên trong bảng điều khiển để tạo động lực.",
+		"step3Title": "Nhận tiền một cách an toàn",
+		"step3Desc": "Với sự bảo vệ quyên góp, bạn sẽ nhận được tiền quyên góp an toàn và minh bạch."
+	},
+	"auth": {
+		"firstName": "Họ",
+		"lastName": "Tên",
+		"username": "Tên người dùng",
+		"email": "Email",
+		"password": "Mật khẩu",
+		"confirmPassword": "Xác nhận mật khẩu",
+		"currentPassword": "Mật khẩu hiện tại",
+		"newPassword": "Mật khẩu mới",
+		"phone": "Số điện thoại (Không bắt buộc)",
+		"code": "Mã xác thực",
+		"loginTitle": "Đăng nhập",
+		"loginSubtitle": "Chào mừng bạn trở lại! Vui lòng đăng nhập vào tài khoản của bạn.",
+		"emailOrUsername": "Email hoặc tên đăng nhập",
+		"rememberMe": "Ghi nhớ đăng nhập",
+		"or": "Hoặc",
+		"registerTitle": "Đăng ký",
+		"registerSubtitle": "Tạo tài khoản mới để bắt đầu hành trình của bạn.",
+		"successTitle": "Đăng ký thành công!",
+		"successMessage": "Chúng tôi đã gửi mã xác thực đến email {email}. Vui lòng kiểm tra email và làm theo hướng dẫn để xác thực tài khoản.",
+		"goToLogin": "Đến trang đăng nhập",
+		"resendEmail": "Gửi lại email",
+		"changeEmail": "Thay đổi email",
+		"forgotPasswordTitle": "Quên mật khẩu",
+		"forgotPasswordSubtitle": "Nhập email của bạn để nhận mã khôi phục mật khẩu",
+		"codeTitle": "Nhập mã xác thực",
+		"codeSubtitle": "Chúng tôi đã gửi mã 6 chữ số đến email {email}",
+		"newPasswordTitle": "Đặt mật khẩu mới",
+		"newPasswordSubtitle": "Nhập mật khẩu mới cho tài khoản của bạn",
+		"passwordResetSuccessTitle": "Đặt lại mật khẩu thành công!",
+		"passwordResetSuccessMessage": "Mật khẩu của bạn đã được đặt lại thành công. Bạn có thể đăng nhập với mật khẩu mới.",
+		"resetPasswordTitle": "Đặt lại mật khẩu",
+		"changePasswordTitle": "Đổi mật khẩu",
+		"emailVerificationTitle": "Xác thực Email",
+		"loginButton": "Đăng nhập",
+		"registerButton": "Tạo tài khoản",
+		"forgotPasswordButton": "Quên mật khẩu?",
+		"verifyEmailButton": "Xác thực Email",
+		"resetPasswordButton": "Đặt lại mật khẩu",
+		"changePasswordButton": "Đổi mật khẩu",
+		"backToLogin": "Quay lại đăng nhập",
+		"backToHome": "Quay về trang chủ",
+		"loginNow": "Đăng nhập ngay",
+		"registerNow": "Đăng ký ngay",
+		"verifyEmailNow": "Xác thực email ngay",
+		"googleLogin": "Đăng nhập với Google",
+		"agreeToTerms": "Tôi đồng ý với Điều khoản sử dụng và Chính sách bảo mật",
+		"haveAccount": "Đã có tài khoản?",
+		"noAccount": "Chưa có tài khoản?",
+		"didntReceiveCode": "Không nhận được mã?",
+		"resendCode": "Gửi lại",
+		"loading": "Đang tải...",
+		"processing": "Đang xử lý...",
+		"verifying": "Đang xác thực...",
+		"creating": "Đang tạo tài khoản...",
+		"resetting": "Đang đặt lại mật khẩu...",
+		"changing": "Đang thay đổi...",
+		"sending": "Đang gửi lại..."
+	},
+	"validation": {
+		"emailOrUsernameRequired": "Email hoặc tên đăng nhập là bắt buộc",
+		"passwordRequired": "Mật khẩu là bắt buộc",
+		"required": "là bắt buộc",
+		"emailInvalid": "Email không hợp lệ",
+		"passwordMinLength": "Mật khẩu phải có ít nhất 6 ký tự",
+		"passwordMinLength8": "Mật khẩu phải có ít nhất 8 ký tự",
+		"passwordComplexity": "Mật khẩu phải chứa ít nhất 1 chữ hoa, 1 chữ thường và 1 số",
+		"passwordMismatch": "Mật khẩu xác nhận không khớp",
+		"usernameMinLength": "Tên người dùng phải có ít nhất 3 ký tự",
+		"usernameFormat": "Tên người dùng chỉ được chứa chữ cái, số và dấu gạch dưới",
+		"codeRequired": "Mã xác thực là bắt buộc",
+		"codeLength": "Mã xác thực phải có 6 chữ số",
+		"mustAgreeToTerms": "Bạn phải đồng ý với điều khoản sử dụng",
+		"passwordDifferent": "Mật khẩu mới phải khác mật khẩu hiện tại",
+		"firstNameRequired": "Họ là bắt buộc",
+		"lastNameRequired": "Tên là bắt buộc",
+		"usernameRequired": "Tên người dùng là bắt buộc",
+		"emailRequired": "Email là bắt buộc",
+		"confirmPasswordRequired": "Xác nhận mật khẩu là bắt buộc"
+	},
+	"messages": {
+		"success": {
+			"emailVerified": "Email đã được xác thực!",
+			"emailVerifiedDesc": "Tài khoản của bạn đã được kích hoạt thành công. Bạn có thể đăng nhập ngay bây giờ.",
+			"passwordReset": "Mật khẩu đã được đặt lại!",
+			"passwordResetDesc": "Mật khẩu của bạn đã được thay đổi thành công. Bạn có thể đăng nhập với mật khẩu mới ngay bây giờ.",
+			"passwordChanged": "Mật khẩu đã được thay đổi!",
+			"passwordChangedDesc": "Mật khẩu của bạn đã được cập nhật thành công. Vui lòng sử dụng mật khẩu mới cho lần đăng nhập tiếp theo.",
+			"registrationSuccess": "Đăng ký thành công!",
+			"registrationSuccessDesc": "Chúng tôi đã gửi mã xác thực đến email. Vui lòng kiểm tra email và làm theo hướng dẫn để xác thực tài khoản.",
+			"codeSent": "Mã xác thực đã được gửi lại",
+			"codeVerificationTitle": "Nhập mã xác thực",
+			"codeVerificationDesc": "Chúng tôi đã gửi mã 6 chữ số đến email của bạn",
+			"emailVerificationDesc2": "Nhập mã xác thực 6 chữ số đã được gửi đến email của bạn",
+			"newPasswordTitle": "Đặt mật khẩu mới",
+			"newPasswordDesc": "Nhập mật khẩu mới cho tài khoản của bạn",
+			"resetPasswordDesc2": "Nhập mã xác thực và mật khẩu mới để hoàn tất việc đặt lại",
+			"changePasswordDesc": "Nhập mật khẩu hiện tại và mật khẩu mới để thay đổi"
+		},
+		"error": {
+			"generic": "Có lỗi xảy ra, vui lòng thử lại",
+			"emailNotFound": "Email không tồn tại trong hệ thống",
+			"emailSendError": "Có lỗi khi gửi email, vui lòng thử lại",
+			"invalidCode": "Mã xác thực không đúng",
+			"resetFailed": "Đặt lại mật khẩu thất bại",
+			"changeFailed": "Đổi mật khẩu thất bại",
+			"loginFailed": "Đăng nhập thất bại"
+		}
+	},
+	"map": {
+		"loading": "Đang tải bản đồ Việt Nam...",
+		"loadError": "Không thể tải bản đồ. Vui lòng thử lại sau.",
+		"archipelago": "Quần đảo",
+		"province": "Tỉnh/Thành phố",
+		"campaigns": "Chiến dịch",
+		"activity": "Hoạt động",
+		"topRanking": "Top {{rank}} trên 63 tỉnh",
+		"unknownProvince": "Tỉnh không xác định",
+		"title": "Chiến dịch gây quỹ trên toàn quốc",
+		"description": "Khám phá các chiến dịch gây quỹ từ khắp 63 tỉnh thành Việt Nam. Hãy hover chuột lên bản đồ để xem thông tin các tỉnh thành.",
+		"islands": {
+			"hoangSa": "Quần đảo Hoàng Sa",
+			"truongSa": "Quần đảo Trường Sa"
+		},
+		"tooltip": {
+			"activityHigh": "Rất cao",
+			"activityMedium": "Trung bình",
+			"activityLow": "Thấp"
+		},
+		"stats": {
+			"provinces": "Tỉnh thành",
+			"selectedProvince": "Tỉnh được chọn",
+			"campaigns": "Chiến dịch",
+			"campaignsHere": "Chiến dịch tại đây",
+			"participants": "Người tham gia"
+		}
+	},
+	"tooltip": {
+		"backToTop": "Về đầu trang",
+		"backToHome": "Quay về trang chủ",
+		"logout": "Đăng xuất"
+	},
+	"popup": {
+		"logoutTitle": "Xác nhận đăng xuất",
+		"logoutMessage": "Bạn có chắc chắn muốn đăng xuất khỏi hệ thống?",
+		"cancel": "Hủy",
+		"confirm": "Đăng xuất"
+	},
+	"trust": {
+		"badge": "Đáng tin cậy & An toàn",
+		"title": "Chúng tôi sẽ hỗ trợ bạn",
+		"titleHighlight": "hỗ trợ",
+		"subtitle": "QuyXanh là nền tảng gây quỹ hàng đầu với hệ thống bảo mật tuyệt đối",
+		"features": {
+			"free": {
+				"title": "Không phí để bắt đầu",
+				"description": "Bắt đầu chiến dịch hoàn toàn miễn phí"
+			},
+			"secure": {
+				"title": "Bảo mật thông tin 100%",
+				"description": "Thông tin được bảo vệ tuyệt đối"
+			},
+			"support": {
+				"title": "Hỗ trợ 24/7",
+				"description": "Đội ngũ chuyên gia luôn sẵn sàng"
+			},
+			"transparent": {
+				"title": "Minh bạch tài chính",
+				"description": "Theo dõi mọi khoản đóng góp rõ ràng"
+			}
+		},
+		"ctaTitle": "Sẵn sàng bắt đầu chiến dịch của bạn?",
+		"ctaHighlight": "chiến dịch",
+		"ctaDescription": "Tham gia cùng hàng nghìn người đã tin tưởng QuyXanh để thực hiện những ước mơ và mục tiêu của họ.",
+		"createCampaign": "Tạo chiến dịch ngay",
+		"learnMore": "Tìm hiểu thêm",
+		"scrollIndicatorFinal": "Cuộn thêm {count} lần để tiếp tục",
+		"scrollIndicatorRegular": "{count} lần cuộn còn lại"
+	},
+	"placeholders": {
+		"enterEmailOrUsername": "Nhập email hoặc tên đăng nhập",
+		"enterFirstName": "Nhập họ của bạn",
+		"enterLastName": "Nhập tên của bạn",
+		"enterUsername": "Chọn tên người dùng duy nhất",
+		"enterEmail": "Nhập email của bạn",
+		"enterPhone": "Nhập số điện thoại",
+		"enterPassword": "Nhập mật khẩu của bạn",
+		"enterCurrentPassword": "Nhập mật khẩu hiện tại",
+		"enterNewPassword": "Nhập mật khẩu mới",
+		"confirmNewPassword": "Nhập lại mật khẩu mới",
+		"createStrongPassword": "Tạo mật khẩu mạnh",
+		"reenterPassword": "Nhập lại mật khẩu",
+		"enterCode": "Nhập mã 6 chữ số"
+	},
+	"securityTip": "💡 Lưu ý bảo mật: Sử dụng mật khẩu mạnh bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt",
+	"supportContact": "Cần trợ giúp? Liên hệ hỗ trợ",
+	"resendNotReceived": "Không nhận được email? Kiểm tra thư mục spam hoặc đăng ký lại",
+	"footer": {
+		"description": "Nền tảng gây quỹ trực tuyến hàng đầu Việt Nam. Giúp bạn thực hiện những ước mơ và mục tiêu của mình thông qua sức mạnh cộng đồng.",
+		"copyright": "Bảo lưu mọi quyền.",
+		"donate": {
+			"title": "Ủng hộ",
+			"categories": "Danh mục",
+			"crisis": "Cứu trợ khẩn cấp",
+			"social": "Quỹ tác động xã hội",
+			"supporter": "Không gian người ủng hộ"
+		},
+		"fundraise": {
+			"title": "Gây quỹ",
+			"howto": "Cách bắt đầu gây quỹ",
+			"categories": "Danh mục gây quỹ",
+			"team": "Gây quỹ nhóm",
+			"blog": "Blog gây quỹ",
+			"charity": "Gây quỹ từ thiện"
+		},
+		"about": {
+			"title": "Giới thiệu",
+			"howworks": "Cách thức hoạt động",
+			"guarantee": "Cam kết bảo đảm",
+			"pricing": "Bảng giá",
+			"help": "Trung tâm trợ giúp",
+			"aboutus": "Về chúng tôi",
+			"careers": "Tuyển dụng"
+		},
+		"contact": {
+			"title": "Liên hệ"
+		},
+		"legal": {
+			"terms": "Điều khoản",
+			"privacy": "Chính sách bảo mật",
+			"legal": "Pháp lý",
+			"accessibility": "Khả năng tiếp cận",
+			"cookies": "Chính sách Cookie"
+		},
+		"language": {
+			"selectLanguage": "Chọn ngôn ngữ"
+		}
+	},
+	"completedCampaigns": {
+		"title": "Những chiến dịch đã hoàn thành",
+		"subtitle": "Cùng nhìn lại những thành công và tác động tích cực mà chúng ta đã tạo ra",
+		"question": "Bạn có muốn khám phá những câu chuyện cảm động đằng sau mỗi chiến dịch?",
+		"description": "Mỗi chiến dịch đều chứa đựng những nỗ lực không ngừng nghỉ và tình yêu thương lan tỏa đến cộng đồng.",
+		"exploreButton": "Khám phá cùng chúng tôi",
+		"backButton": "Quay lại",
+		"campaigns": [
+			{
+				"title": "Thắp sáng tương lai",
+				"description": "Hỗ trợ hơn 7.000 trẻ em đường phố và nạn nhân buôn người trở về cuộc sống an toàn.",
+				"details": "Chương trình chú trọng cứu hộ khẩn cấp, giáo dục và dạy nghề, giúp trẻ tái hòa nhập cộng đồng."
+			},
+			{
+				"title": "Trả lại nụ cười",
+				"description": "Chiến dịch 2024: 39 ca phẫu thuật chỉ trong 5 ngày, đồng thời chuyển giao thiết bị & đào tạo điều dưỡng địa phương",
+				"details": "Mỗi ca mổ trọn gói ~6 triệu đ, mang lại khả năng ăn – nói – thở bình thường cho trẻ."
+			},
+			{
+				"title": "Một giọt máu, triệu tấm lòng",
+				"description": "Đợt hiến máu tháng 4‑2025 thu hút >200 người, cung cấp 870 đơn vị máu cho các bệnh viện khan hiếm",
+				"details": "TP.HCM hiện dẫn đầu cả nước, chiếm gần 20% lượng máu hiến tình nguyện hằng năm."
+			},
+			{
+				"title": "Chạy Vì Trái Tim 2024",
+				"description": "Sự kiện 2024 quy tụ >5.000 người và quyên góp 6,08 tỷ đ cho trẻ mắc tim bẩm sinh",
+				"details": "Từ 2013‑nay, chương trình đã tài trợ phẫu thuật tim cho 1.549 em nhỏ."
+			},
+			{
+				"title": "Kề vai sát cánh sau bão lũ",
+				"description": "Lũ lịch sử khiến >170 người thiệt mạng; IFRC và đối tác đã hỗ trợ thực phẩm, nước sạch, tiền mặt cho hàng chục nghìn hộ dân",
+				"details": "Mỗi suất cứu trợ lương thực 500.000 đ giúp gia đình 4 người trong 1 tuần."
+			}
+		]
+	}
+}
