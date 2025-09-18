@@ -1,0 +1,139 @@
+.loading {
+	position: relative;
+	min-height: 80px;
+	min-width: 80px;
+	color: transparent;
+	pointer-events: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&::before {
+		content: "";
+		position: absolute;
+		width: calc(100% + 8px);
+		height: calc(100% + 8px);
+		top: -4px;
+		left: -4px;
+		border-radius: 50%;
+		background: conic-gradient(
+			from 0deg,
+			transparent 0deg,
+			var(--primary-color-1) 90deg,
+			var(--primary-color-2) 180deg,
+			var(--primary-color-3) 270deg,
+			transparent 360deg
+		);
+		animation: modernSpin 1.5s linear infinite;
+		z-index: 0;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: var(--background-color);
+		border-radius: 50%;
+		backdrop-filter: blur(10px);
+		z-index: 1;
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1),
+			inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+		:global(.dark-theme) & {
+			background: var(--background-color-dark, #1a1a1a);
+			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3),
+				inset 0 1px 0 rgba(255, 255, 255, 0.1);
+		}
+	}
+
+	.loading-icon {
+		position: relative;
+		z-index: 2;
+		color: var(--primary-color-2);
+		animation: enhancedPulse 2s ease-in-out infinite;
+		filter: drop-shadow(0 0 12px rgba(52, 168, 83, 0.4));
+		font-size: calc(min(100%, 120px) * 0.35);
+		width: auto;
+		height: auto;
+		transform-origin: center;
+
+		:global(.dark-theme) & {
+			filter: drop-shadow(0 0 16px rgba(52, 168, 83, 0.6));
+		}
+	}
+
+	&[style*="width"] {
+		min-height: unset;
+		min-width: unset;
+
+		&::before {
+			width: calc(100% + 6px);
+			height: calc(100% + 6px);
+			top: -3px;
+			left: -3px;
+		}
+
+		.loading-icon {
+			font-size: calc(min(100%, 120px) * 0.4);
+		}
+	}
+
+	&.small {
+		min-height: 40px;
+		min-width: 40px;
+
+		&::before {
+			width: calc(100% + 4px);
+			height: calc(100% + 4px);
+			top: -2px;
+			left: -2px;
+		}
+
+		.loading-icon {
+			font-size: calc(40px * 0.35);
+		}
+	}
+}
+
+@keyframes modernSpin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes enhancedPulse {
+	0%,
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	25% {
+		transform: scale(1.05);
+		opacity: 0.8;
+	}
+	50% {
+		transform: scale(1.1);
+		opacity: 0.9;
+	}
+	75% {
+		transform: scale(1.05);
+		opacity: 0.8;
+	}
+}
+
+.loading:hover {
+	.loading-icon {
+		animation-duration: 1s;
+		color: var(--primary-color-1);
+	}
+
+	&::before {
+		animation-duration: 0.8s;
+	}
+}
